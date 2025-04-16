@@ -12,5 +12,5 @@ int main() {
 			break;
 		}
 	}
-	printf("%d", somme);
+	printf("%d\n", somme);
 }
