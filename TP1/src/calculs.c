@@ -5,7 +5,7 @@
 int main() {
     int num1 = 10;
 	int num2 = 5;
-	char op = '-';
+	char op = '+';
 	int res = 0;
 
 	switch (op) {
