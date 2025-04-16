@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include <string.h>
 
-int main() {
+main() {
 int a = 16;
 int b = 3;
 int res = 0
