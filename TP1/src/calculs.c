@@ -5,7 +5,7 @@
 int main() {
     int num1 = 10;
 	int num2 = 5;
-	string op = '+'
+	char op = '+'
 
 	switch (op) {
 		case + : return num1 + num2;
