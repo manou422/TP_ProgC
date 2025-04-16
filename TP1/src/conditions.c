@@ -7,7 +7,7 @@ int main() {
 		if (i % 5 == 0 || i % 7 == 0) {
 			somme +=i;
 		} else if(i % 11 == 0) {
-			continue
+			continue;
 		} else if (somme > 5000) {
 			break;
 		}
