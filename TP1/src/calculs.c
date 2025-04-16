@@ -6,16 +6,19 @@ int main() {
     int num1 = 10;
 	int num2 = 5;
 	char op = '+';
+	int res = 0;
 
 	switch (op) {
-        case '+': return num1 + num2;
-        case '-': return num1 - num2;
-        case '*': return num1 * num2;
-        case '/': return num2 != 0 ? num1 / num2 : 0;
-        case '%': return num2 != 0 ? num1 % num2 : 0;
-        case '&': return num1 & num2;
-        case '|': return num1 | num2;
-        case '~': return ~num1;
+        case '+': res = num1 + num2;
+        case '-': res = num1 - num2;
+        case '*': res = num1 * num2;
+        case '/': res = num2 != 0 ? num1 / num2 : 0;
+        case '%': res = num2 != 0 ? num1 % num2 : 0;
+        case '&': res = num1 & num2;
+        case '|': res = num1 | num2;
+        case '~': res = ~num1;
     }
+
+	printf("%d\n", res);
 
 }
