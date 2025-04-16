@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <Math.h>
+#include <math.h>
 
 int main() {
     float rayon;
