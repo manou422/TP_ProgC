@@ -25,4 +25,6 @@ printf("a est égal à b ? %s\n", egal ? "true" : "false");
 bool superieur = (a>b)
 printf("a est égal à b ? %s\n", superieur ? "true" : "false");
 
+return 0;
+
 }
