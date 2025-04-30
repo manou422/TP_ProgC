@@ -9,6 +9,6 @@ int main() {
 	int thermeGeneral = 0;
 	for(int i = 0; i<n; i++) {
 		thermeGeneral += i; 
-		printf("%d\n", thermegeneral);
+		printf("%d\n", thermeGeneral);
     }
 }
