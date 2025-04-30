@@ -8,7 +8,7 @@ int main() {
     int therme2 = init + therme1;
 	int thermeGeneral = 0;
 	for(int i = 0; i<n; i++) {
-		thermegeneral += i; 
+		thermeGeneral += i; 
 		printf("%d\n", thermegeneral);
     }
 }
