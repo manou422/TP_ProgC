@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main() {
-    int d = "001000000000000000000001";
+    int d = 001000000000000000000001;
     
     int bit_4 = (d >> 3) & 1;
     int bit_20 = (d >> 19) & 1;
