@@ -8,5 +8,5 @@ int main() {
  for(int i = 0; i<b; i++) {
   res *= a;
  }
- printf("%d", res);
+ printf("%d\n", res);
 }
