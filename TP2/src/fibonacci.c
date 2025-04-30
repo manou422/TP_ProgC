@@ -8,6 +8,6 @@ int main() {
 	thermeGeneral = 0;
 	for(int n = 0; i<n i++) {
 		thermegeneral += i; 
-		print(thermegeneral);
+		printf("%d\n", thermegeneral);
     }
 }
