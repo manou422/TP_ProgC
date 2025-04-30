@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main() {
-	int i = 7;
+	int n = 7;
     int init = 0;
     int therme1 = 1;
     int therme2 = init + therme1;
